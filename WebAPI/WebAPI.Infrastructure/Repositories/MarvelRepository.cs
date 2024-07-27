@@ -66,10 +66,10 @@ namespace WebAPI.Infrastructure.Repositories
 			try
 			{
 				var ts = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
-				var hash = GenerateMd5Hash($"{ts}{_privateKey}{_apiKey}");  //"7108658997ebf4e3c60e21b091f9201f"; // Normalmente deberías calcular el hash dinámicamente
+				var hash = GenerateMd5Hash($"{ts}{_privateKey}{_apiKey}"); 
 
 				var comicResponse = JsonConvert.DeserializeObject<ComicResponseModel>(
-				await GetReleases($"{_apiEndpoint}v1/public/comics?ts={ts}&apikey={_apiKey}&hash={hash}&limit={limit}&format=comic"));
+				await GetReleases($"{_apiEndpoint}v1/public/comics?ts={ts}&apikey={_apiKey}&hash={hash}&limit={limit}&format=comic&orderBy=-onsaleDate"));
 				return _mapper.Map<ComicResponseEntity>(comicResponse);
 				
 			}
@@ -84,7 +84,7 @@ namespace WebAPI.Infrastructure.Repositories
 			try
 			{
 				var ts = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
-				var hash = GenerateMd5Hash($"{ts}{_privateKey}{_apiKey}");  //"7108658997ebf4e3c60e21b091f9201f"; // Normalmente deberías calcular el hash dinámicamente
+				var hash = GenerateMd5Hash($"{ts}{_privateKey}{_apiKey}");
 
 				var comicResponse = JsonConvert.DeserializeObject<ComicResponseModel>(
 				await GetReleases($"{_apiEndpoint}v1/public/comics/{id}?ts={ts}&apikey={_apiKey}&hash={hash}"));

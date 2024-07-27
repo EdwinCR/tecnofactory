@@ -111,15 +111,21 @@ namespace WebAPI.Application.UseCase
 			return response;
 		}
 
-		public Response<FavoriteDTO> DeleteFavorite(int id)
+		public Response<FavoriteDTO> DeleteFavorite(FavoriteRequest favorite)
 		{
 			var response = new Response<FavoriteDTO>();
 			try
 			{
 				using (var favoriteRepository = _favoriteRepository ?? new FavoriteRepository())
 				{
-					new FavoriteService(favoriteRepository).UpdateFavoriteId(id, EnumState.Eliminado.ToString());
-					response.Message = EnumMessageResponse.Update.ToString();
+                    var favoriteExists = ValidateFavoriteExists(favorite.DocNumber, favorite.Email, favorite.IdComic).Data;
+
+                    if (favoriteExists != null)
+                    {
+                        new FavoriteService(favoriteRepository).UpdateFavoriteId(favoriteExists.Id, EnumState.Eliminado.ToString());
+                        response.Message = EnumMessageResponse.Update.ToString();
+                    }
+                    
 				}
 				response.Succeeded = true;
 			}

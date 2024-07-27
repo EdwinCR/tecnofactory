@@ -7,6 +7,6 @@ namespace WebAPI.Application.UseCase.Interfaces
 	{
 		Response<UsersDTO> ValidateUserExists(string docnumber, string email);
 		Response<UsersDTO> RegisterUsers(UsersRequest user);
-		Response<bool> LoginUser(string email, string password);
+		Response<UsersDTO> LoginUser(string email, string password);
 	}
 }

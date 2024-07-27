@@ -32,13 +32,15 @@ namespace WebAPI.Controllers
 			if (!result.Succeeded)
 				return BadRequest();
 
-			if (result.Data)
+			if (result.Data != null)
 			{
-				return Ok();
+				result.Message = Ok().StatusCode.ToString();
+				return new JsonResult(result);
 			}
 			else
 			{
-				return Unauthorized();
+				result.Message = Unauthorized().StatusCode.ToString();
+				return new JsonResult(result);
 			}
 		}
 	}

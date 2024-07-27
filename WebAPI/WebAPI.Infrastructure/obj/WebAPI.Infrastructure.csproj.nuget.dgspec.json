@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {}
+    "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+    "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj",
+        "projectUniqueName": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Domain\\WebAPI.Domain.csproj",
         "projectName": "WebAPI.Domain",
-        "projectPath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj",
+        "projectPath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Domain\\WebAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Domain\\obj\\",
+        "outputPath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
+    "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj",
+        "projectUniqueName": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj",
         "projectName": "WebAPI.Infrastructure",
-        "projectPath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj",
+        "projectPath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Infrastructure\\obj\\",
+        "outputPath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
-                "projectPath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj"
+              "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+                "projectPath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI.Domain\\WebAPI.Domain.csproj"
               }
             }
           }
