@@ -1,0 +1,75 @@
+﻿@model ComicResponseVM;
+
+@{
+    ViewData["Title"] = "Comics";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+</head>
+
+
+<section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">COMICS</h5>
+        <div class="row">
+            @if (Model.Data != null)
+            {
+                if (Model.Data.Results.Any())
+                {
+                    @foreach (var item in Model.Data.Results)
+                    {
+
+                        var onsaleDate = item.Dates.FirstOrDefault(d => d.Type == "onsaleDate")?.Dates;
+                        var imageUrl = item.Images.Count() == 0 ? "https://c0.klipartz.com/pngpicture/544/1008/gratis-png-logo-marvel-comics-x-men-comic-x-men-thumbnail.png" : $"{item.Thumbnail.Path}.{item.Thumbnail.Extension}";
+                        var description = item.TextObjects.Count() == 0 ? "Ups! No tenemos descripción para este titulo." : item.TextObjects.FirstOrDefault(t => t.Type == "issue_solicit_text")?.Text;
+                        var writer = item.Creators.Items.FirstOrDefault(c => c.Role == "writer");
+                        var writerName = writer != null ? writer?.Name : "Sin Escritor";
+
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip">
+                                <div class="mainflip flip-0">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <div class="container-img">
+                                                    <p><img class=" img-fluid" src="@imageUrl" alt="card image"></p>
+                                                </div>
+                                                <div cass="container-text">
+                                                    <h4 class="card-title">@item.Title</h4>
+                                                    <p class="card-text">@onsaleDate</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <div class="container-text">
+                                                    <h4 class="card-title">@item.Title</h4>
+                                                    <p class="card-text">@Html.Raw(@description)</p>
+                                                    <p class="card-text">Escritor: @writerName</p>
+                                                </div>
+                                                <div class="container-btn">
+                                                    <a class="btn btn-primary btn-sm" onclick="AddFavorite(@item.Id)">
+                                                        <i class="fa fa-plus"></i> Agregar a Favoritos
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+            else
+            {
+                <h7>No hay registros.</h7>
+            }
+        </div>
+    </div>
+</section>
+
+<script src="~/js/Home.js" asp-append-version="true"></script>

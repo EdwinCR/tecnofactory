@@ -7,6 +7,6 @@ namespace WebAPI.Application.UseCase.Interfaces
 	{
 		Response<List<FavoriteDTO>> GetFavoriteByUser(string docnumber, string email);
 		Response<FavoriteDTO> RegisterFavorite(FavoriteRequest favorite);
-		Response<FavoriteDTO> DeleteFavorite(int id);
+		Response<FavoriteDTO> DeleteFavorite(FavoriteRequest favorite);
 	}
 }

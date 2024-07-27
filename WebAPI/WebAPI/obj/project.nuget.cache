@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kaPMFYUMY9u+mtUGejik4LunvcGAGkpZSH6IDaWQt2PLvFHAoq5F/cFYAvzUL7rbE1WZc8TyqMJKr3BhQgnNjQ==",
+  "dgSpecHash": "GxP1UH4wFYL5pNW+v/ZMZlkr/ueFGPLdJpyCVedHBOIfsC46npfk2xEfZt3Xavl4uBjbniczkQj0SlrpaPZyAg==",
   "success": true,
-  "projectFilePath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\WEBAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edwin\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\edwin\\.nuget\\packages\\automapper.extensions.expressionmapping\\7.0.1\\automapper.extensions.expressionmapping.7.0.1.nupkg.sha512",

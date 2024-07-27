@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8L44sByLLsat024tcu6Id0KRUvctCfGkffFD3z5u96yMh6J2wNGe2fylUeuBQ95uVRD7rvExa5JQknxFoFd2VQ==",
+  "success": true,
+  "projectFilePath": "E:\\Proyectos\\PruebasTecnicas\\TecnoFactory\\tecnofactory\\Administrator\\Administrator\\Administrator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\edwin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

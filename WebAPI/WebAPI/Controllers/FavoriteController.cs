@@ -34,10 +34,10 @@ namespace WebAPI.Controllers
 		}
 
 
-		[HttpPut("[action]/{id}")]
-		public IActionResult DeleteFavorite(int id)
+		[HttpPut("[action]")]
+		public IActionResult DeleteFavorite(FavoriteRequest favorite)
 		{
-			var result = _favoriteUseCase.DeleteFavorite(id);
+			var result = _favoriteUseCase.DeleteFavorite(favorite);
 			if (!result.Succeeded)
 				return BadRequest();
 			return new JsonResult(result);

@@ -50,9 +50,9 @@ namespace WebAPI.Application.UseCase
 			return response;
 		}
 
-		public Response<bool> LoginUser(string email, string password)
+		public Response<UsersDTO> LoginUser(string email, string password)
 		{
-			var response = new Response<bool>();
+			var response = new Response<UsersDTO>();
 			try
 			{
 				using (var usersRepository = _usersRepository ?? new UsersRepository())
@@ -63,7 +63,12 @@ namespace WebAPI.Application.UseCase
 
 					if(dataUser != null)
 					{
-						response.Data = new UsersService(usersRepository).VerifyPassword(password, dataUser.Password);
+						var validate = new UsersService(usersRepository).VerifyPassword(password, dataUser.Password);
+						if (validate && dataUser.State == EnumState.Activo.ToString())
+						{
+							dataUser.Password = null;
+							response.Data = dataUser;
+						}
 					}
 				}
 				response.Succeeded = true;
