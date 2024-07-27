@@ -34,7 +34,7 @@
 			}
 		},
 		error: function (xhr, status, error) {
-			alert('Error al subir el archivo.');
+			alert('Error conexión a WebApi.');
 		}
 	});
 }
