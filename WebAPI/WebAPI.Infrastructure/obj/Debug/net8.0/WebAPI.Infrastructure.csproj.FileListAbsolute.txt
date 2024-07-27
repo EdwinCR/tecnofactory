@@ -1,0 +1,16 @@
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\WebAPI.Infrastructure.csproj.AssemblyReference.cache
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\WebAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\WebAPI.Infrastructure.AssemblyInfoInputs.cache
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\WebAPI.Infrastructure.AssemblyInfo.cs
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\WebAPI.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\WebAPI.Infrastructure.sourcelink.json
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\bin\Debug\net8.0\WebAPI.Infrastructure.deps.json
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\bin\Debug\net8.0\WebAPI.Infrastructure.dll
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\bin\Debug\net8.0\WebAPI.Infrastructure.pdb
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\bin\Debug\net8.0\WebAPI.Domain.dll
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\bin\Debug\net8.0\WebAPI.Domain.pdb
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\WebAPI.I.7448B489.Up2Date
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\WebAPI.Infrastructure.dll
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\refint\WebAPI.Infrastructure.dll
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\WebAPI.Infrastructure.pdb
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Infrastructure\obj\Debug\net8.0\ref\WebAPI.Infrastructure.dll

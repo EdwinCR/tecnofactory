@@ -1,0 +1,12 @@
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\obj\Debug\net8.0\WebAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\obj\Debug\net8.0\WebAPI.Domain.AssemblyInfoInputs.cache
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\obj\Debug\net8.0\WebAPI.Domain.AssemblyInfo.cs
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\obj\Debug\net8.0\WebAPI.Domain.csproj.CoreCompileInputs.cache
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\obj\Debug\net8.0\WebAPI.Domain.sourcelink.json
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\bin\Debug\net8.0\WebAPI.Domain.deps.json
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\bin\Debug\net8.0\WebAPI.Domain.dll
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\bin\Debug\net8.0\WebAPI.Domain.pdb
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\obj\Debug\net8.0\WebAPI.Domain.dll
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\obj\Debug\net8.0\refint\WebAPI.Domain.dll
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\obj\Debug\net8.0\WebAPI.Domain.pdb
+E:\Proyectos\PruebasTecnicas\TecnoFactory\tecnofactory\WebAPI\WebAPI.Domain\obj\Debug\net8.0\ref\WebAPI.Domain.dll
